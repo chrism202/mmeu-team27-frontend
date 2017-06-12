@@ -1,0 +1,500 @@
+   27  ssh root@3.8.86.82
+   28  sudo export http_proxy=http://cinext11.proxy.corporate.ge.com:80/
+   29  export http_proxy=http://cinext11.proxy.corporate.ge.com:80/
+   30  export https_proxy=http://cinext11.proxy.corporate.ge.com:80/
+   31  sudo npm config rm proxy
+   32  sudo npm config rm https-proxy
+   33  npm install sails
+   34  sudo npm -g install sails
+   35  npm config set proxy http://http-proxy.corporate.ge.com:80
+   36  npm config set https-proxy http://http-proxy.corporate.ge.com:80
+   37  sudo npm -g install sails
+   38  npm get proxy
+   39  npm config set https-proxy http://cinext11.proxy.corporate.ge.com:80/
+   40  npm config set proxy http://cinext11.proxy.corporate.ge.com:80/
+   41  sudo npm -g install sails
+   42  cd -al
+   43  ls -al
+   44  cd ss-myapps/
+   45  ls -al
+   46  cd ..
+   47  sails
+   48  sails version
+   49  sails new TestProj
+   50  cd TestProj/
+   51  ls -al
+   52  sails lift
+   53  cd ../ss-myapps/
+   54  cd ITLPSolutionSprintMyApps/
+   55  git branch Test-Branch-Chris
+   56  git checkout Test-Branch-Chris
+   57  touch test.js
+   58  git add *
+   59  git commit 
+   60  git commit -m
+   61  git commit -m "testing branch for Tim"
+   62  git push 
+   63  git push origin Test-Branch-Chris
+   64  git push origin Test-Branch-Chris
+   65  git push origin Test-Branch-Chris
+   66  ls -al
+   67  cd ..
+   68  ls 0al
+   69  ls -al
+   70  cd ITLPSolutionSprintMyApps/
+   71  ls -al
+   72  git checkout master
+   73  git credential-osxkeychain
+   74  curl -s -0 \ https://github-media-downloads.s3.amazonaws.com/osx/git-credential-osxkeychain
+   75  ls -al
+   76  cd ..
+   77  sudo curl -s -0 \ https://github-media-downloads.s3.amazonaws.com/osx/git-credential-osxkeychain
+   78  sudo chmod u+x git-credential-osxkeychain
+   79  cd ITLPSolutionSprintMyApps/
+   80  git checkout Test-Branch-Chris
+   81  git push origin Test-Branch-Chris
+   82  git checkout apiv0.1
+   83  git checkout master
+   84  git checkout apiv0.1
+   85  git update
+   86  cd dev/ss-myapps/API/
+   87  ls -al
+   88  node server.js
+   89  sudo npm -g install cassandra-driver
+   90  node server.js
+   91  ls -al
+   92  vi node_modules/
+   93  vi package.json 
+   94  vi package.json 
+   95  node server.js
+   96  ls -al
+   97  vi app.js
+   98  vi config/
+   99  ls config/
+  100  vi node_modules/
+  101  cd node_modules/
+  102  ls 
+  103  ls -al
+  104  cd cassie-odm/
+  105  ls -al
+  106  cd ../../
+  107  vi package.json 
+  108  node server.js
+  109  vi package.json 
+  110  npm install
+  111  vi package.json 
+  112  sudo npm install
+  113  node server.js
+  114  node server.js
+  115  node server.js
+  116  node server.js
+  117  vi ../ITLPSolutionSprintMyApps/
+  118  cd ..
+  119  ls
+  120  rm -R express-API/
+  121  sudo rm -R express-API/
+  122  ls
+  123  cd API/
+  124  ls 
+  125  cd ../ITLPSolutionSprintMyApps/
+  126  ls 
+  127  cd ../API/
+  128  ls
+  129  node -v
+  130  cd dev/ss-myapps/ITLPSolutionSprintMyApps/
+  131  ls -al
+  132  cd ../API/
+  133  ls -al
+  134  ci schema.txt 
+  135  vi schema.txt 
+  136  git add schema.txt 
+  137  git commit
+  138  git push origin master
+  139  git checkout master
+  140  git checkout apiv0.1
+  141  vi schema.txt 
+  142  git push origin apiv0.1
+  143  git fetch
+  144  git checkout api-expressv0.1
+  145  git pull
+  146  ls -al
+  147  vi server.js
+  148  vi server.js
+  149  git checkout -b node-driver
+  150  ls -al
+  151  pwd
+  152  git checkout master
+  153  git add package.json server.js 
+  154  git commit 
+  155  git checkout master
+  156  git commit -m "Testing basic cassandra-driver functionality"
+  157  git checkout master
+  158  git add server.js.chris 
+  159  git commit -m "added server.js.chris with basic Cassandra-driver functionality"
+  160  git checkout api-expressv0.1
+  161  git add server.js.chris
+  162  git checkout master
+  163  cp server.js.chris ../
+  164  git checkout api-expressv0.1
+  165  cp ../server.js.chris .
+  166  git add server.js.chris 
+  167  git commit
+  168  git commit -m "Added basic cassandra-driver connection / query in server.js.chris"
+  169  git push origin api-expressv0.1
+  170  vi package.json 
+  171  git checkout master
+  172  git diff
+  173  git diff --staged
+  174  vi package.json 
+  175  git checkout apiv0.1
+  176  vi package.json 
+  177  git checkout api-expressv0.1
+  178  vi package.json 
+  179  git checkout api-expressv0.1
+  180  ls -al
+  181  vi node_modules/
+  182  vi package.json 
+  183  node server.js
+  184  node server.js.chris 
+  185  irb
+  186  irb
+  187  irb
+  188  cd dev/ss-myapps/API/
+  189  ls -al
+  190  cd config
+  191  ls -al
+  192  vi cequel.yml 
+  193  cd ..
+  194  cd dev/ss-myapps/API/app/models/
+  195  ls -al
+  196  touch blacklist.rb
+  197  touch config.rb
+  198  touch disambiguation.rb
+  199  touch policy.rb
+  200  touch policygroup.rb
+  201  touch rule.rb
+  202  touch version.rb
+  203  exit
+  204  ifconfig
+  205  exit
+  206  nslookup colab.ge.com
+  207  ping colab.ge.com
+  208  echo Tim is the best
+  209  exit
+  210  clear
+  211  cd dev/
+  212  ls 
+  213  ls -al
+  214  ls | grep *pem
+  215  sudo ls -al | grep *pem
+  216  ls
+  217  ls -al
+  218  cd ss-myapps/
+  219  ls 
+  220  cd API/
+  221  ls 
+  222  cd api/
+  223  ls
+  224  mkdir Examples/
+  225  touch device.json
+  226  touch blacklist.json
+  227  touch README.txt
+  228  touch config.json
+  229  touch disambiguation.json
+  230  touch policy.json
+  231  touch policygroup.json
+  232  touch rule.json
+  233  touch version.json
+  234  exit
+  235  ping github.build.ge.com
+  236  exit
+  237  ruby -v
+  238  rvm
+  239  cd dev/ss-myapps/API/
+  240  git fetch
+  241  git checkout ruby-apiv0.1
+  242  git stash
+  243  git status
+  244  git pull
+  245  git status
+  246  git checkout ruby-apiv0.1
+  247  git pull
+  248  ls -al
+  249  cd lib/
+  250  ls 
+  251  cd ..
+  252  gem
+  253  gem rails-api
+  254  cd ../../
+  255  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  256  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  257  echo $http_proxy
+  258  npm get config proxy
+  259  npm config get proxy
+  260  export http_proxy=http://cinext11.proxy.corporate.ge.com:80/
+  261  export https_proxy=http://cinext11.proxy.corporate.ge.com:80/
+  262  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  263  cd ~
+  264  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  265  export https_proxy=""
+  266  export http_proxy=""
+  267  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  268  rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup
+  269  rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup
+  270  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  271  brew install rbenv ruby-build
+  272  echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+  273  source ~/.bash_profile
+  274  rbenv install 2.2.2
+  275  rbenv global 2.2.2
+  276  ruby -v
+  277  gem install rails -v 4.2.1
+  278  cd dev/
+  279  touch working-proxy.txt
+  280  npm config get proxy
+  281  npm config get proxy > working-proxy.txt 
+  282  tail working-proxy.txt 
+  283  export http_proxy=http://cinext11.proxy.corporate.ge.com:80/
+  284  export https_proxy=http://cinext11.proxy.corporate.ge.com:80/
+  285  gem install rails -v 4.2.1
+  286  rbenv rehash
+  287  rails -v
+  288  rails new rails-test
+  289  ls -al
+  290  cd rails-test
+  291  rails server
+  292  cd ../ss-myapps/API/
+  293  ls 
+  294  rails server
+  295  bundle install
+  296  rails server
+  297  gem rails-api
+  298  rails server
+  299  sudo rails server
+  300  sudo rails server
+  301  sudo rails server
+  302  sudo rails server
+  303  sudo rails server
+  304  sudo rails server
+  305  sudo rails server
+  306  sudo rails server
+  307  sudo rails server
+  308  sudo rails server
+  309  sudo rails server
+  310  ls
+  311  git add *
+  312  git commit -m "Working /api/v1/devices but not .../devices/uuid"
+  313  git push origin ruby-apiv0.1
+  314  sudo rails server
+  315  sudo rails server
+  316  git add *
+  317  git commit -m "That time Chris fixed everything and Tim done nothing"
+  318  git push origin ruby-apiv0.1
+  319  sudo rails server
+  320  git add *
+  321  git commit -m "Working /devices/ and ?sso=*, justin had broken it"
+  322  git push 
+  323  sudo rails server
+  324  history > ../../../dev/6-may.txt
+  325  tail ../../../dev/6-may.txt 
+  326  head ../../../dev/6-may.txt 
+  327  sudo rails server
+  328  git add *
+  329  git commit -m "Tim knows a lot of Ruby now"
+  330  git push
+  331  sudo rails server
+  332  git add *
+  333  git commit -m "Added data model class files under /app/models/"
+  334  git push
+  335  sudo rails server
+  336  git status
+  337  git pull
+  338  git stash
+  339  git pull
+  340  sudo rails server
+  341  git add *
+  342  git commit -m "Added /api/Examples/ folder and associated README"
+  343  git push
+  344  git add *
+  345  git commit -m "Added /api/Examples/ folder and associated README - updated folder structure"
+  346  git push
+  347  git commit -m "added /api/Examples/ README""
+  348  git add *
+  349  git commit -m "added /api/Examples/ README"
+  350  git push
+  351  git add *
+  352  git commit -m "Updated Examples README to be accurate to RESTful standards"
+  353  git push
+  354  history > ~/dev/6-may-2.txt
+  355  ls ~/dev/
+  356  clear
+  357  exit
+  358  clear
+  359  apachectl start
+  360  sudo apachectl start
+  361  cd /etc/apache2/
+  362  cp httpd.conf httpd.conf.bak
+  363  sudo cp httpd.conf httpd.conf.bak
+  364  sudo vi httpd.conf
+  365  sudo apachectl restart
+  366  cd /Library/WebServer/
+  367  cd Documents/
+  368  ls -al
+  369  vi index.html.en 
+  370  touch info.php
+  371  sudo touch info.php
+  372  sudo vi info.php 
+  373  ls -al
+  374  sudo cp ~/dev/ss-myapps/Front\ End/devices.php .
+  375  ls -al
+  376  sudo cp ~/dev/ss-myapps/Front\ End/devices.php .
+  377  sudo cp ~/dev/ss-myapps/Front\ End/devices.php .
+  378  sudo cp ~/dev/ss-myapps/Front\ End/devices.php .
+  379  sudo cp ~/dev/ss-myapps/Front\ End/devices.php .
+  380  ping gesdh.com
+  381  cd ~/dev/ss-myapps/API/
+  382  git checkout master
+  383  git pull
+  384  git checkout master
+  385  git stash
+  386  ssh root@3.8.86.142
+  387  exit
+  388  cd dev/ss-myapps/API/
+  389  ls 
+  390  rails server
+  391  rails server
+  392  ls 
+  393  ls -al
+  394  quit
+  395  exit
+  396  ls -al
+  397  ping sandbox.sisense.corporate.ge.com
+  398  ping 3.239.49.50
+  399  exit
+  400  nslookup
+  401  nslookup 3.239.49.50
+  402  ping 3.21.115.252
+  403  ssh -i ~/dev/
+  404  cd ~/dev/
+  405  ls -al
+  406  ssh -i ~/dev/CloudGuruKey.pem ec2-user@54.171.188.236
+  407  ssh 54.171.188.236 -l ec2-user -i CloudGuruKey.pem 
+  408  exit
+  409  cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+  410  git clone git://github.com/drtangible/sublime-splunk.git
+  411  exit
+  412  defaults write com.apple.finder AppleShowAllFiles YES
+  413  exi
+  414  exit
+  415  clear
+  416  exit
+  417  ping aws.amazon.com
+  418  clear
+  419  cd dev/
+  420  ls 
+  421  clear
+  422  ssh i- ~/dev/CloudGuruKey.pem ec2-user@ec2-52-18-19-56.eu-west-1.compute.amazonaws.com
+  423  ssh i- ~/dev/CloudGuruKey.pem ec2-user@ec2-52-18-19-56.eu-west-1.compute.amazonaws.com
+  424  ssh -i ~/dev/CloudGuruKey.pem ec2-user@ec2-52-18-19-56.eu-west-1.compute.amazonaws.com
+  425  exit
+  426  ssh -i ~/dev/CloudGuruKey.pem ec2-user@ec2-52-18-195-166.eu-west-1.compute.amazonaws.com
+  427  dig +recurse +trace morrison.im any
+  428  exit
+  429  node
+  430  npm
+  431  git
+  432  cd dev
+  433  mkdir lets-chat
+  434  cd lets-chat/
+  435  git clone https://github.com/sdelements/lets-chat.git
+  436  git clone git://github.com/sdelements/lets-chat.git
+  437  exit
+  438  cd dev/lets-chat/
+  439  ls 
+  440  unzip lets-chat-master.zip 
+  441  ls
+  442  cd lets-chat-master
+  443  ls 
+  444  ls -al
+  445  cd ..
+  446  cd lets-chat-master
+  447  npm install
+  448  sudo npm install
+  449  npm start
+  450  exit
+  451  cf
+  452  exit
+  453  /Users/chrismorrison/Downloads/cf ; exit;
+  454  cf
+  455  cf m
+  456  cf
+  457  cf m\
+  458  cf m
+  459  exit
+  460  cf
+  461  exit
+  462  getconf LONG_BIT
+  463  cf
+  464  exit
+  465  cf
+  466  echo hello
+  467  cf
+  468  exit
+  469  echo hello
+  470  cf
+  471  exit
+  472  /Users/chrismorrison/Downloads/pgweb_linux_386 ; exit;
+  473  /Users/chrismorrison/Downloads/pgweb_linux_386 ; exit;
+  474  ssh root@3.8.86.138
+  475  ssh 3.8.86.138
+  476  ssh root@3.8.86.138
+  477  dir
+  478  ls
+  479  cd Downloads/
+  480  ls
+  481  ls -d
+  482  ls 
+  483  sudo pgweb_linux_386
+  484  sudo ./pgweb_linux_386
+  485  wheel
+  486  ls -all
+  487  sudo chmod +x pgweb_linux_386
+  488  ls -all
+  489  sudo ./pgweb_linux_386
+  490  ls -all
+  491  ls -all | grep "team"
+  492  sudo chmod +x teampostgresql_ubuntu.sh 
+  493  ./teampostgresql_ubuntu.sh 
+  494  sudo ./teampostgresql_ubuntu.sh 
+  495  scp teampostgresql_ubuntu.sh root@3.8.86.136/
+  496  scp teampostgresql_ubuntu.sh root@3.8.86.136:/
+  497  scp teampostgresql_ubuntu.sh root@3.8.86.138:/
+  498  ssh root@3.8.86.138
+  499  docker
+  500  ssh root@3.8.86.138
+  501  dir
+  502  pwd
+  503  git clone https://github.com/chrism202/mmeu-team27-frontend.git
+  504  cd mmeu-team27-frontend/
+  505  ls
+  506  git commit
+  507  git add .
+  508  git commit
+  509  git commit -m "Initial code import"
+  510  git push https://github.com/chrism202/mmeu-team27-frontend.git master
+  511  cf
+  512  ls
+  513  cd startbootstrap-sb-admin-gh-pages/
+  514  cf login
+  515  ls
+  516  cf push frontend-test-chris -b https://github.com/cloudfoundry/php-buildpack.git
+  517  cf push frontend-test-chris -b https://github.com/cloudfoundry/php-buildpack.git
+  518  history > history_for_print.txt
+  519  cd ..
+  520  history > history_for_print.txt
+  521  cd ..
+  522  cd ./
+  523  pwd
+  524  ls
+  525  cd mmeu-team27-frontend/
+  526  history > history_for_print.txt
