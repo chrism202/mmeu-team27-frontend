@@ -174,7 +174,7 @@
                 <!-- Page Heading -->
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">
+                        <h1 style = "font-family:'GE Inspira'"class="page-header">
                             Heatpump Data
                             <small>Predictions</small>
                         </h1>
@@ -183,7 +183,7 @@
 <div id="container1" ></div>
     </div>
                                   
-                    <div class="col-lg-4">
+                    <div style = "font-family: 'GE Inspira'" class="col-lg-4">
                     
                         <form role="form">
 
@@ -237,11 +237,11 @@
                                 </div>
                         </form>
                      </div>
-                     <div class="col-lg-4">
+                     <div style = "font-family: 'GE Inspira'"class="col-lg-4">
                       
                     <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Energy Consumption</h3>
+                                <h3 style = "font-weight:bold"class="panel-title">Energy Consumption</h3>
                             </div>
                             <div class="panel-body">
                                 KwH
@@ -249,7 +249,7 @@
                         </div>                
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Power Consumption</h3>
+                                <h3 style = "font-weight:bold"class="panel-title">Power Consumption</h3>
                             </div>
                             <div class="panel-body">
                                 J
@@ -299,7 +299,7 @@
         
 
 
-$.getJSON('https://php-time-series.run.aws-usw02-pr.ice.predix.io/', function (data) {
+$.getJSON('remote-api.php', function (data) {
     // Create the chart
     var data1=[];
     var data2=[];
@@ -316,20 +316,16 @@ $.getJSON('https://php-time-series.run.aws-usw02-pr.ice.predix.io/', function (d
                     data2[i][1] =data.tags[0].results[0].values[i][2];
                     }
                     console.log("this",data2, data1);
-    var color =[];
-    for (var i=0; i<data.length;i++)
-        {
-            if (data[i] == data[i+1])
-                {
-                    data[i][2]='green';
-                }
-            else data[i][2]='red';
-        
-        }
 
-    
+
+data1.sort(function(a, b) {
+    return parseFloat(a[0]) - parseFloat(b[0]);
+});
    var chart= Highcharts.stockChart('container', {
-
+chart:{ style: {
+//            fontFamily: 'GE Inspira',
+//    fontSize:'15px'
+        }},
 
         rangeSelector: {
             selected: 1
@@ -349,13 +345,8 @@ $.getJSON('https://php-time-series.run.aws-usw02-pr.ice.predix.io/', function (d
             tooltip: {
                 valueDecimals: 2
             }
-        },{
-            name: 'Heat Pump Consumption',
-            data: data2,
-            tooltip: {
-                valueDecimals: 2
-            }
         }]
+        
     });
     var extremes = chart.xAxis[0].getExtremes(),
      start = new Date(extremes.min),
